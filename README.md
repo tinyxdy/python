@@ -1,5 +1,5 @@
-# 91porn_python
-利用python3，爬取并下载91porn网站上面的视频  
+# python
+利用python3，爬取并下载网站上面的视频  
 
 **增加爬取t66y论坛图片的脚本**  
 
@@ -21,7 +21,7 @@
 <img src="https://s3.ax1x.com/2021/01/17/sr5exJ.png" alt="运行成功.png" width="100%" height="150" border="0" />
 
 # 需要注意的是
-由于91porn网站改版，最新的视频采用m3u8格式，本脚本自动将含有m3u8格式的视频链接保存在当前目录的`urlwithtitle.txt`文本中，每一行用`----`，将内容分割，左边为视频的url，右边为视频的标题，如图所示：  
+由于网站改版，最新的视频采用m3u8格式，本脚本自动将含有m3u8格式的视频链接保存在当前目录的`urlwithtitle.txt`文本中，每一行用`----`，将内容分割，左边为视频的url，右边为视频的标题，如图所示：  
 <img src="https://s3.ax1x.com/2021/01/17/sr5JRe.png" alt="保存的视频链接格式" width="100%" height="150" border="0" />
 
 然后在项目的根目录找到`m3u8DL-CLI`这个文件夹，打开它，双击`N_m3u8DL-CLI-SimpleG.exe`程序，将`urlwithtitle.txt`拖拽到`M3U8地址`栏中，点击`GO`按钮，程序就自动下载分片，最后合并视频  
